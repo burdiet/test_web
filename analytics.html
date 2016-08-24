@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>one4All - Pepper</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <link rel="stylesheet" href="http://demo.geekslabs.com/materialize/v2.1/layout03/css/style-horizontal.css">
+  <link rel="stylesheet" href="./main.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="top-nav">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a class="page-title">數據分析</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <ul class="side-nav fixed">
+      <li class="logo">
+        <img src="img/logo_w.png" class="brand-logo center"></img>
+      </li>
+      <li class="search">
+        <div class="search-wapper">
+          <input type="text">
+          <i class="material-icons">search</i>
+        </div>
+      </li>
+      <li><a href="./index.html">回憶過去</a></li>
+      <li class="active"><a href="#">數據分析</a></li>
+    </ul>
+  </header>
+  <div class="main">
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s6">
+            <h5>身體狀況</h5>
+            <p>透過各項測試來檢測身體以及心靈的健康狀況，提供家人了解家中長者的健康狀況，提早預防及治療</p>
+          </div>
+          <div class="col s6">
+            <img src="http://imgur.com/JfKVzVx.jpg" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="section">
+        <div class="row">
+          <div class="col s4">
+            <h5>身體狀況</h5>
+            <p>透過各項測試來檢測身體以及心靈的健康狀況，提供家人了解家中長者的健康狀況，提早預防及治療</p>
+          </div>
+          <div class="col s8">
+            <img src="http://imgur.com/l2i5bWX.jpg" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </div>
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+<script>
+(function($) {
+  $(function() {
+    $(".button-collapse").sideNav();
+
+    $('.modal-trigger').leanModal();
+  })
+})(jQuery)
+</script>

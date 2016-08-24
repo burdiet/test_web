@@ -1,0 +1,122 @@
+@media only screen and (min-width: 993px) {
+	.container {
+    	width: 85%;
+	}
+}
+
+ul li{
+	font-size: 1.1rem;
+}
+nav {
+	height: 80px;
+	background: #323C3C;
+}
+
+h4{
+	padding: 10px;
+	border-left:solid;
+	border-left-width: 5px;
+}
+
+nav a {
+	line-height: 80px;
+	color: #fff;
+}
+
+header {
+	padding-left: 300px;
+}
+
+.brand-logo{
+	height: 110px;
+	display: block;
+	vertical-align: middle;
+	margin: auto !important;
+}
+
+#nav-mobile .modal-trigger {
+	color: #81b9c3;
+}
+
+.page-title {
+	font-size: 30px;
+}
+
+.side-nav {
+	/*background-color: #008571;*/
+	/*background-color: #32526e;*/
+	background-color: #292E40;
+}
+
+.side-nav li{
+	display: block;
+}
+
+.side-nav.fixed a {
+	color: white;
+}
+
+.side-nav li.active {
+	/*background-color: #009688;*/
+	/*background-color: #292E40;*/
+	border-left: solid;
+	border-left-width: 5px; 
+	border-left-color: #008571;
+	background-color: #32526e;
+}
+
+.side-nav li.active a {
+	padding-left: 11px;
+}
+
+.logo {
+	height: 100px;
+}
+
+.search .search-wapper {
+	position: relative;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+i.right{
+	margin-left: 0px;
+	vertical-align: middle;
+	line-height: 48px;
+}
+
+.search input {
+	height: 0px;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #fff;
+    /*border: 2px solid #fff;
+    color: #fff;*/
+}
+
+.search .material-icons {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    cursor: pointer;
+    /*color: #fff;*/
+}
+
+.row .col.s4{
+}
+
+.main {
+	padding-left: 300px;
+}
+
+.attrs {
+	padding-left: 30px;
+}
+
+.attrs li {
+	font-size: 16px;
+}
+
+.attrs li i {
+	font-size: 16px;
+}
